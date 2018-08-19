@@ -1,0 +1,57 @@
+.layout {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.topo {
+	height: 30px;
+	border-bottom: 1px solid gray;
+	text-align: left;
+	padding: 0 0 10px 0;
+	float: left;
+	width: 100%;
+	background: red;
+}
+
+.topo p {
+	font-weight: bold;
+	font-size: 30px;
+	color: blue;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.topo ul {
+	float: right;
+}
+.topo ul li {
+	display: inline;
+	padding: 3px;
+}
+
+.menu {
+	float: left;
+	border: 1px solid gray;
+	padding: 15px;
+	width: 10%;
+}
+
+.clear {
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+.conteudo {
+	padding: 15px;
+	border: 1px solid gray;
+	float: left;
+	width: 80%;
+}
+
+.rodape {
+	clear: both;
+	padding: 15px;
+	border: 1px dashed gray;
+}
